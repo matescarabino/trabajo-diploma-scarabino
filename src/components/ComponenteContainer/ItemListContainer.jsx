@@ -1,5 +1,7 @@
 import React from 'react'
 import './ItemListContainer.css';
+import ItemCount from '../ItemCount/ItemCount';
+
 
 const ItemListContainer = ({saludar}) => {
     
@@ -8,6 +10,9 @@ const ItemListContainer = ({saludar}) => {
     <div className='mensaje'>
         {saludar}
     </div>
+
+    <ItemCount stock="5" initial="1"/>
+
     </>
     )
 }

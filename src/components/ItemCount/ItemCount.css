@@ -1,0 +1,51 @@
+section{
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    
+}
+
+.card__contador{
+    width: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items:center;
+
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card__contador__cantidad{
+    width: 50px;
+    flex-direction: row;
+    justify-content: center;    
+    align-items:center;
+
+    border:1px solid red;
+
+}
+
+.card__contador button{
+    width: 80px;
+    width: 50px;
+    color: #0099ff;
+    font-size: 26px;
+    background-color: #fff;
+    border:1px solid red;
+    align-items:start;
+    justify-content: start;   
+    align-self:flex-end;
+ 
+}
+.card__contador div{
+    width: 80px;
+    width: 50px;
+    color: #0099ff;
+    font-size: 26px;
+    background-color: #fff;
+    border:1px solid red;
+    align-items:center;
+    justify-content: center;    
+    align-self:flex-start;
+}
