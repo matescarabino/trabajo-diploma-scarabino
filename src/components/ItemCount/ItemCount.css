@@ -1,19 +1,37 @@
 section{
     display: flex;
     justify-content: center;    
+    flex-direction: row; 
+}
+
+.card{
+    width: 250px;
+    display: flex;
     flex-direction: row;
-    
+    flex-direction: column; 
+    justify-content: center;    
+    align-items:center;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+
+
+}
+.titulo{
+    margin: 0px 0px 20px 10px;
+    align-self:flex-start;
+
 }
 
 .card__contador{
     width: 200px;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;    
+    justify-content: space-around;    
     align-items:center;
-
     background-color: #fff;
+    border: 1px solid gray;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .card__contador__cantidad{
@@ -21,30 +39,39 @@ section{
     flex-direction: row;
     justify-content: center;    
     align-items:center;
-
-    border:1px solid red;
-
 }
 
-.card__contador button{
-    width: 80px;
-    width: 50px;
+.card button{
+    width: 200px;
     color: #0099ff;
-    font-size: 26px;
+    font-size: 16px;
+    padding: 6px;
     background-color: #fff;
-    border:1px solid red;
-    align-items:start;
-    justify-content: start;   
-    align-self:flex-end;
+    border: 1px solid #0099ff;
+    align-items:center;
+    justify-content: center;  
+    border-radius: 5px;
+    margin-bottom: 10px;
  
 }
+.card__contador button{
+    width: 80px;
+    color: #0099ff;
+    font-size: 26px;
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    align-items:start;
+    justify-content: start;   
+    margin-bottom: 0px;
+
+}
+
 .card__contador div{
     width: 80px;
-    width: 50px;
     color: #0099ff;
     font-size: 26px;
     background-color: #fff;
-    border:1px solid red;
     align-items:center;
     justify-content: center;    
     align-self:flex-start;
