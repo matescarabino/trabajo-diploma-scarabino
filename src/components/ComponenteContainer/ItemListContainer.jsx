@@ -6,10 +6,6 @@ import ItemList from '../ItemList/ItemList';
 
 const ItemListContainer = ({saludar}) => {
     
-  const onAdd = (cant) => {
-    console.log(`La cantidad es: ${cant}`)
-  }
-
 
   return (
     <>

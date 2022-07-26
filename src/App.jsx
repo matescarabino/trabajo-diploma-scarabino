@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ComponenteContainer/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
       <NavBar />
 
       <ItemListContainer saludar={'Hola soy el componente contenedor'}/>
+
+      <ItemDetailContainer/>
+
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
